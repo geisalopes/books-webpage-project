@@ -179,6 +179,7 @@ section {
 .open-book {
   max-width: 400px;
   opacity: 0.8;
+  border-radius: 25px;
 }
 
 @media (max-width: 900px) {
