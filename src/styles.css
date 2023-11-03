@@ -47,7 +47,6 @@ footer p {
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0px;
-  margin-right: 20px;
   opacity: 0.7;
   text-align: left;
 }
@@ -122,6 +121,7 @@ section {
 
 .grid {
   display: grid;
+  grid-gap: 64px;
   grid-template-columns: 1fr 2fr 2fr;
 }
 
