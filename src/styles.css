@@ -1,22 +1,64 @@
 /* Fonts
 font-family: 'Poppins', sans-serif; */
 
+/* Colors
+Dark Brown: #2e2121 */
+
 body {
   font-family: Poppins;
-  background: #2e2121;
+  background-color: #1d1a21;
 }
 
 footer {
   color: #d1c6b8;
+  background-image: linear-gradient(
+      rgba(29, 26, 33, 0.8),
+      rgba(29, 26, 33, 0.8)
+    ),
+    url(../images/books03.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 0;
 }
 
 footer a {
   color: #d1c6b8;
+  opacity: 0.7;
+}
+
+footer h3 {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+footer li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer p {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  margin-right: 20px;
+  opacity: 0.7;
+  text-align: left;
+}
+
+footer ul {
+  padding: 0;
 }
 
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)),
-    url("../images/library6.jpeg");
+    url("../images/library02.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   color: #d1c6b8;
@@ -68,9 +110,19 @@ header h3 {
   opacity: 80%;
 }
 
+section {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 .container {
   max-width: 1300px;
   margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
 }
 
 @media (max-width: 900px) {
