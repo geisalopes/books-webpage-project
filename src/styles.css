@@ -5,7 +5,6 @@ font-family: 'Poppins', sans-serif; */
 Dark Brown: #2e2121 */
 
 body {
-  font-family: Poppins;
   background-color: #1d1a21;
 }
 
@@ -26,7 +25,6 @@ footer a {
 }
 
 footer h3 {
-  font-family: Poppins;
   font-size: 20px;
   font-weight: 700;
   line-height: 30px;
@@ -41,7 +39,6 @@ footer li {
 }
 
 footer p {
-  font-family: Poppins;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -68,7 +65,7 @@ header a {
   background-color: #d1c6b8;
   color: #1b1110;
   display: inline-block;
-  font-family: Poppins;
+
   font-size: 14px;
   font-weight: 700;
   line-height: 1.5;
@@ -81,7 +78,6 @@ header a {
 }
 
 header h1 {
-  font-family: "Poppins", sans-serif;
   font-size: 92px;
   font-weight: 700;
   line-height: 1;
@@ -90,7 +86,6 @@ header h1 {
 }
 
 header h2 {
-  font-family: Poppins;
   font-size: 40px;
   font-weight: 400;
   line-height: 1.5;
@@ -99,7 +94,6 @@ header h2 {
 }
 
 header h3 {
-  font-family: Poppins;
   font-size: 24px;
   font-weight: 900;
   line-height: 1.5;
@@ -109,12 +103,13 @@ header h3 {
 }
 
 main {
-  background-color: #d1c6b8;
+  background-color: #f5ede4;
+  font-family: "Poppins", sans-serif;
 }
 
 main h2 {
   color: #272044;
-  font-family: Poppins;
+
   font-size: 16px;
   font-weight: 700;
   line-height: 1.5;
@@ -127,7 +122,6 @@ main h2 {
 
 main h3 {
   color: #272044;
-  font-family: Poppins;
   font-size: 40px;
   font-weight: 700;
   line-height: 1.5;
@@ -136,9 +130,28 @@ main h3 {
   text-align: left;
 }
 
+main h4 {
+  color: #272044;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: 0em;
+  margin: 0;
+  text-align: left;
+}
+
+main h5 {
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 0;
+  letter-spacing: 0rem;
+  text-align: left;
+}
+
 main p {
   color: #272044;
-  font-family: Poppins;
+
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
@@ -147,9 +160,51 @@ main p {
 }
 
 section {
-  max-width: 1200px;
+  max-width: 100%;
   margin: 0 auto;
   padding: 100px 0;
+}
+
+section.secondary {
+  background: #d1c6b8;
+}
+
+section.secondary h2 {
+  text-align: center;
+  color: #272044;
+  opacity: 100%;
+}
+section.secondary h3 {
+  text-align: center;
+  color: #272044;
+}
+
+.btn {
+  background: #423b4a;
+  color: white;
+  display: block;
+
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: 3px;
+  padding: 16px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.card {
+  background: #f3eade;
+  margin: 30px 0;
+}
+
+.card-body {
+  padding: 32px;
+}
+
+.card-footer {
+  margin: 30px;
 }
 
 .center-image {
@@ -174,6 +229,15 @@ section {
 
 .grid-3-columns {
   grid-template-columns: 1fr 2fr 2fr;
+}
+
+.grid-3-columns-bookstores {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.img-responsive {
+  height: 185px;
+  width: 100%;
 }
 
 .open-book {
@@ -218,18 +282,21 @@ section {
   }
 
   main h2 {
+    color: #272044;
     font-size: 14px;
     opacity: 0.7;
     text-align: center;
   }
 
   main h3 {
+    color: #272044;
     text-align: center;
     font-size: 18px;
     margin: 15px;
   }
 
   main p {
+    color: #272044;
     font-size: 14px;
     text-align: center;
   }
