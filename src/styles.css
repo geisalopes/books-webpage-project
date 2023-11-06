@@ -5,6 +5,7 @@ font-family: 'Poppins', sans-serif; */
 Dark Brown: #2e2121 */
 
 body {
+  font-family: "Poppins", sans-serif;
   background-color: #1d1a21;
 }
 
@@ -17,6 +18,7 @@ footer {
     url(../images/books03.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
+  font-family: "Poppins", sans-serif;
 }
 
 footer a {
@@ -103,7 +105,7 @@ header h3 {
 }
 
 main {
-  background-color: #f5ede4;
+  background-color: #d1c6b8;
   font-family: "Poppins", sans-serif;
 }
 
@@ -115,7 +117,7 @@ main h2 {
   line-height: 1.5;
   letter-spacing: 5px;
   margin: 0;
-  opacity: 30%;
+  opacity: 50%;
   text-align: left;
   text-transform: uppercase;
 }
@@ -162,11 +164,11 @@ main p {
 section {
   max-width: 100%;
   margin: 0 auto;
-  padding: 100px 0;
+  padding: 100px;
 }
 
 section.secondary {
-  background: #d1c6b8;
+  background: #f5ede4;
 }
 
 section.secondary h2 {
@@ -180,31 +182,30 @@ section.secondary h3 {
 }
 
 .btn {
-  background: #423b4a;
-  color: white;
   display: block;
-
-  font-size: 14px;
+  color: white;
   font-weight: 700;
-  line-height: 1.5;
-  letter-spacing: 3px;
-  padding: 16px;
+  font-size: 14px;
+  line-height: 21px;
   text-align: center;
-  text-decoration: none;
+  letter-spacing: 3px;
   text-transform: uppercase;
+  padding: 16px;
+  background-color: #423b4a;
+  text-decoration: none;
 }
 
 .card {
-  background: #f3eade;
+  background: #ddd3c6;
   margin: 30px 0;
 }
 
 .card-body {
-  padding: 32px;
+  padding: 30px;
 }
 
 .card-footer {
-  margin: 30px;
+  padding: 0 30px 30px;
 }
 
 .center-image {
@@ -220,7 +221,7 @@ section.secondary h3 {
 
 .grid {
   display: grid;
-  grid-gap: 10px;
+  grid-gap: 64px;
 }
 
 .grid-2-columns {
