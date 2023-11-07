@@ -181,6 +181,18 @@ section.secondary h3 {
   color: #272044;
 }
 
+section.tertiary h2 {
+  text-align: center;
+  color: #272044;
+  opacity: 100%;
+}
+
+section.tertiary h3 {
+  text-align: center;
+  color: #272044;
+  margin-bottom: 30px;
+}
+
 .btn {
   display: block;
   color: white;
@@ -205,6 +217,11 @@ section.secondary h3 {
   height: 500px;
 }
 
+/* Remover quando não quiser mais o maps */
+.card-header.grid {
+  grid-gap: 0;
+}
+
 .card-footer {
   padding: 0 30px 30px;
 }
@@ -218,6 +235,18 @@ section.secondary h3 {
 .container {
   max-width: 1300px;
   margin: 0 auto;
+}
+
+/* remover quanto tirar o maps */
+.embed {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+}
+
+.favorite-book {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
 }
 
 .grid {
@@ -237,8 +266,19 @@ section.secondary h3 {
   grid-template-columns: 1fr 1fr 1fr;
 }
 
+.grid-3-columns-favorite-books {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+/* Como estava antes
 .img-responsive {
   height: 185px;
+  width: 100%;
+} */
+
+.img-responsive {
   width: 100%;
 }
 
@@ -305,6 +345,24 @@ section.secondary h3 {
 
   section {
     padding: 30px;
+  }
+
+  /* remover quanto tirar o maps */
+  .card-header img {
+    display: none;
+  }
+
+  /* remover quanto tirar o maps */
+  .embed {
+    aspect-ratio: 16 / 9;
+  }
+
+  .favorite-book {
+    width: 300px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
   }
 
   .grid {
